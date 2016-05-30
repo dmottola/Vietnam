@@ -1,0 +1,173 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Riding Vietnam</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- <link rel="stylesheet" href="css/normalize.min.css"> -->
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Magnific Popup core CSS file -->
+  <link rel="stylesheet" href="css/swipebox.css">
+  <link rel="stylesheet" href="css/prettyPhoto.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  <!-- Magnific Popup core JS file -->
+  <script src="js/vendor/jquery.swipebox.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
+
+<body>
+  <!--[if lt IE 8]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <nav>
+    <div id="nav-icon3">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul>
+      <li><a href="#section1">Intro</a></li>
+      <li><a href="#section2">Route</a></li>
+      <li><a href="#section3">Bike</a></li>
+      <li><a href="#section4">Photos</a></li>
+      <li><a href="#section5">Video</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <section>
+
+      <div class="section1" id="section1">
+        <div class="fog">
+          <div class="title"></div>
+          <div class="contentwidth">
+            <div class="captionbox" id="titlebox">A bike trip through Vietnam is an experience. From a modern, bustling capital, to the rural farmlands and rice paddies, you will never find better sights and twistier roads than Northern Vietnam. A true challenge for any level of rider, this journey is a must for all who love seeing the world on two wheels.
+              <a href="#section2">Start the journey ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="section2" id="section2">
+        <div class="contentwidth">
+          <aside>
+            <div class="leftcolumn">
+              <h1>Northern Vietnam</h1>
+              <p>Northern Vietnam is characterized by huge limestone karsts, rural farmland, twisting switchbacks up and down mountains, and often unfinished roads. In short, perfect for a good rough ride.</p>
+              <div class="buttonstyle1 button-2010">2010 Route</div>
+              <div class="buttonstyle1 button-2013">2013 Route</div>
+              <h2>Major Roads</h2>
+              <img src="img/line_road.png">
+              <h2>Route Taken</h2>
+              <img src="img/line_route.png">
+            </div>
+          </aside>
+
+          <div class="rightcolumn">
+            <img src="img/mapdefault.svg" class="map defaultmap show">
+            <img src="img/map2010.svg" class="map date-2010 hide">
+            <img src="img/map2013.svg" class="map date-2013 hide">
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <div class="section3" id="section3">
+          <div class="contentwidth">
+            <aside>
+              <div class="leftcolumn">
+                <h1>The right bike for the job</h1>
+                <h2>Honda XR250</h2>
+                <ol class="specs">
+                  <li>Engine - Four stroke, single cylinder</li>
+                  <li>Displacement - 249 cc / 15.1 cuin</li>
+                  <li>Max Power - 30 hp @ 9000 rpm</li>
+                  <li>Max Torque - 18 ft. lbs @ 7500 rpm</li>
+                  <li>Dry Weight - 104 kg / 229.3 lbs</li>
+                  <li>Fuel Capacity - 9 Litres / 2.4 gal</li>
+                </ol>
+                <div class="buttonstyle2">Buy this bike</div>
+              </div>
+            </aside>
+            <div class="rightcolumn"><img src="img/bike.png" class="map"></div>
+          </div>
+        </div>
+
+      </section>
+
+      <section>
+        <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+          <span class="w3-closebtn w3-hover-red w3-text-white w3-xxlarge w3-container w3-display-topright">&times;</span>
+          <div class="w3-modal-content w3-animate-zoom">
+            <img id="img01" style="width:100%">
+          </div>
+        </div>
+
+        <div class="section4" id="section4">
+          <div class="contentwidth">
+            <div class="leftcolumn">
+              <h1>Photos</h1>
+            </div>
+            <div class="gallery">
+              <div class="photo"><img src="img/photos/photo1.jpg" onclick="onClick(this)" class="thumbnail"></div>
+              <div class="photo"><img src="img/photos/photo2.jpg" onclick="onClick(this)" class="thumbnail"></div>
+              <div class="photo"><img src="img/photos/photo3.jpg" onclick="onClick(this)" class="thumbnail"></div>
+              <div class="photo"><img src="img/photos/photo4.jpg" onclick="onClick(this)" class="thumbnail"></div>
+              <div class="photo"><img src="img/photos/photo5.jpg" onclick="onClick(this)" class="thumbnail"></div>
+              <div class="photo"><img src="img/photos/photo6.jpg" onclick="onClick(this)" class="thumbnail"></div>
+              <div class="photo"><img src="img/photos/photo7.jpg" onclick="onClick(this)" class="thumbnail"></div>
+              <div class="photo"><img src="img/photos/photo8.jpg" onclick="onClick(this)" class="thumbnail"></div>
+              <div class="photo"><img src="img/photos/photo9.jpg" onclick="onClick(this)" class="thumbnail"></div>
+              <div class="photo"><img src="img/photos/photo10.jpg" onclick="onClick(this)" class="thumbnail"></div>
+              <div class="photo"><img src="img/photos/photo11.jpg" onclick="onClick(this)" class="thumbnail"></div>
+              <div class="photo"><img src="img/photos/photo12.jpg" onclick="onClick(this)" class="thumbnail"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section5" id="section5">
+          <div class="contentwidth">
+            <div class="leftcolumn">
+              <h1>Video</h1>
+            </div>
+            <div class="captionbox">Capturing the experience is a must. GoPros and other helmet mounted cameras are highly recommended, you never know what is just around the bend.
+              <a href="https://vimeo.com/168578398" rel="prettyPhoto" title="">Watch the video ></a>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <footer>
+        <div class="footer">Copyright 2016 David Mottola</div>
+      </footer>
+
+    </div>
+  </div>
+
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+  <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script> -->
+
+
+</body>
+</html>
